@@ -1,0 +1,35 @@
+###
+POST http://localhost:3000/api/heroe
+Content-Type: application/json
+
+{
+    "nombre":"marciano",
+    "heroe":"detective marciano",
+    "poder":"volar",
+    "debilidad":"fuego",
+    "edad":"40"
+}
+
+###
+
+GET http://localhost:3000/api/heroe/60e1e334426b4364e8707d62
+
+
+###
+PUT http://localhost:3000/api/heroe/60e1e334426b4364e8707d62
+Content-Type: application/json
+
+{
+"nombre": "barry",
+  "heroe": "flash",
+  "poder": "velocidad",
+  "debilidad": "otro velocista",
+  "edad": 38
+}
+
+###
+
+DELETE http://localhost:3000/api/heroe/60e1e334426b4364e8707d62
+
+###
+GET  http://localhost:3000/api/heroe
