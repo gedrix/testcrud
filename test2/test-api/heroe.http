@@ -3,11 +3,13 @@ POST http://localhost:3000/api/heroe
 Content-Type: application/json
 
 {
-    "nombre":"marciano",
-    "heroe":"detective marciano",
-    "poder":"volar",
-    "debilidad":"fuego",
-    "edad":"40"
+    "nombre":"Matt Murdokc",
+    "heroe":"Daredevil",
+    "poder":"fuerza, e inteligtencia",
+    "debilidad":"no se",
+    "edad":"30",
+    "foto":"https://1.bp.blogspot.com/-ohDAvcp9Dhc/XscaI_DDoDI/AAAAAAAB4Vk/m1Z2ccCi30IunsyG3tzEMnrqjS0S8IauwCLcBGAsYHQ/s1600/daredevil.jpg",
+    "descripcion":"hombre que quedo ciego desde niño que le cayó líquidos radioactivos en los ojos"
 }
 
 ###

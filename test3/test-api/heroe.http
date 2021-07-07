@@ -1,0 +1,38 @@
+###
+GET http://localhost:3000/api/heroe
+
+
+####
+POST http://localhost:3000/api/heroe
+Content-Type: application/json
+
+{
+    "nombre":"gerardo",
+    "heroe":"que quiere un heroe",
+    "poder":"aaaaaa",
+    "debilidad":"el agua",
+    "edad":"27",
+    "foto":"sssssss",
+    "descripcion":"se pone a llorar cada dia :V"
+}
+
+####
+GET http://localhost:3000/api/heroe/60e51ec79ed62a7600b2a4f5
+
+
+####
+PUT http://localhost:3000/api/heroe/60e521ef2246475f64aab8b6
+Content-Type: application/json
+
+{
+    "nombre":"jorlan",
+    "heroe":"que quiere un heroe",
+    "poder":"aaaaaa",
+    "debilidad":"calor",
+    "edad":"27",
+    "foto":"sssssss",
+    "descripcion":"se pone a llorar cada dia :V"
+}
+
+###
+DELETE http://localhost:3000/api/heroe/60e4894a1f2a9755b0e61078
